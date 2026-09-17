@@ -1,104 +1,123 @@
-# Frontend Mentor - Four card feature section
+# Frontend Mentor - Four card feature section solution
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+This is my solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+* [Overview](#overview)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+  * [The challenge](#the-challenge)
+  * [Screenshot](#screenshot)
+  * [Links](#links)
+* [My process](#my-process)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+  * [Built with](#built-with)
+  * [What I learned](#what-i-learned)
+  * [Continued development](#continued-development)
+  * [Useful resources](#useful-resources)
+  * [AI Collaboration](#ai-collaboration)
+* [Author](#author)
+* [Acknowledgments](#acknowledgments)
 
-## The challenge
+## Overview
 
-Your challenge is to build out this feature section and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+The challenge was to build a responsive four-card feature section based on the design provided by Frontend Mentor.
 
-Your users should:
+Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+* View the optimal layout for the site depending on their device's screen size.
+* See the four feature cards displayed appropriately on both mobile and larger screen sizes.
 
-### Want some support on the challenge? 
+### Screenshot
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+Add a screenshot of your completed project here.
 
-## Where to find everything
+```md
+![Four card feature section screenshot](./screenshot.jpg)
+```
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+* Solution URL: **Add your Frontend Mentor solution URL here**
+* Live Site URL: **Add your live site URL here**
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+## My process
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+I started the project by building the HTML structure first. After setting up the basic HTML, I began styling the page and naming the different elements and containers so that I could work with them easily in CSS.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+I followed a mobile-first approach, so I started by creating the mobile layout before moving on to the desktop version.
 
-## Using AI coding assistants
+My development process was roughly:
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+1. Set up the HTML structure.
+2. Begin the initial styling.
+3. Create and name the different sections and `div` elements.
+4. Create and style the four feature cards.
+5. Add the SVG icons to the cards.
+6. Position the icons and adjust the spacing and text.
+7. Work on the text colours and overall appearance.
+8. Create the desktop layout using CSS Grid.
+9. Use media queries to change the layout for larger screens.
+10. Make final adjustments to the spacing and positioning.
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+I spent approximately five hours working on this project. Although I still consider myself relatively slow when building projects, I can already see an improvement compared with my previous card project, which took almost an entire day. I expect my development speed to improve naturally as I continue practicing and building more projects.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+### Built with
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+* Semantic HTML5 markup
+* CSS custom properties
+* Flexbox
+* CSS Grid
+* Mobile-first workflow
+* Media queries
 
-## Building your project
+### What I learned
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+This project helped me understand CSS Grid much better. Before working on this project, I understood the basic idea of Grid, but actually using it to position the four cards gave me a much better understanding of how rows, columns, gaps, and positioning work together.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+I also gained a much better understanding of media queries and how they can be used to change a layout depending on the screen size. Working on the mobile layout first and then creating the desktop layout helped me understand responsive design more clearly.
 
-## Deploying your project
+Flexbox also came in very handy for controlling the overall alignment and positioning of the page, while CSS Grid was particularly useful for creating the desktop card layout.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+Another thing I learned during the project was how to properly work with Google Fonts. The font provided in the original documentation was not working as expected, so I went back to Google Fonts, obtained the correct embed code, and added it to my HTML. This allowed me to use the Poppins font correctly.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Continued development
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+There are still several areas I want to improve as I continue building projects.
 
-## Create a custom `README.md`
+I want to become more comfortable with CSS Grid so that I can create complex layouts without relying heavily on trial and error. I also want to continue practicing Flexbox and responsive design.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+I would like to improve my understanding of positioning, spacing, and sizing so that I can create layouts that are more consistent across different screen sizes.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+I also want to improve my ability to structure my HTML and CSS cleanly and efficiently, while continuing to practice mobile-first development.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+As I complete more Frontend Mentor challenges, I hope to become faster at translating a design into a working webpage and reduce the amount of time I need to spend figuring out individual layout problems.
 
-## Submitting your solution
+### Useful resources
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+* [Frontend Mentor](https://www.frontendmentor.io/) - This challenge provided the design and requirements for the project.
+* [MDN Web Docs](https://developer.mozilla.org/) - Useful for understanding HTML and CSS concepts and checking CSS properties.
+* [CSS-Tricks](https://css-tricks.com/) - Useful for learning and understanding CSS layout techniques, particularly Flexbox and Grid.
+* [Google Fonts](https://fonts.google.com/) - Used to obtain and embed the Poppins font used in the project.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### AI Collaboration
 
-## Sharing your solution
+I used AI during this project mainly to help me understand concepts I was not completely comfortable with and to help me create and structure this README.
 
-There are multiple places you can share your solution:
+AI was also useful when I needed clarification about CSS concepts and how certain properties worked.
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+One example was working with the Poppins font. The font implementation provided in the original documentation was not working for me, so I went back to Google Fonts, obtained the correct embed code, and added it to my HTML.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+I used AI as a learning and troubleshooting aid rather than having it build the project for me. The HTML and CSS were written and developed by me while I used AI to help explain concepts and resolve areas where I needed additional understanding.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+## Author
 
-## Got feedback for us?
+* Website - **Add your website here**
+* Frontend Mentor - **Add your Frontend Mentor profile here**
+* GitHub - **Add your GitHub profile here**
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+## Acknowledgments
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+Thanks to Frontend Mentor for providing the challenge and design that I used to practice my HTML and CSS skills.
