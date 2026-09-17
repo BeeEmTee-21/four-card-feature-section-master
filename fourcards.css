@@ -1,2 +1,66 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* color naming*/
+
+
+/* card styling before griding- mobile-first approach*/
+body{
+    background-color: #fafafa;
+    font-family: "Poppins";
+}
+.content-head{
+    font-size: 1.5rem;
+    
+}
+.bold-text{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+.content-body{
+    width: 270px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-1,.card-2,.card-3,.card-4{
+    width: 240px;
+    height: 200px;
+    padding-left: 25px;
+    padding-top: 1px;
+    background-color: hsl(0, 0%, 100%);
+    border-top: solid ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* box-shadow: black; */
+    
+}
+.card-2{
+    border-color: hsl(0, 78%, 62%);
+}
+.card-1{
+    border-color: hsl(180, 62%, 55%);
+}
+.card-3{
+    border-color: hsl(34, 97%, 64%);
+}
+.card-4{
+    border-color:hsl(212, 86%, 64%);
+}
+.marg-up{
+    margin-top: -15px;
+}
+.flex-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.grid-container{
+    display: grid;
+    gap: 30px;
+}
