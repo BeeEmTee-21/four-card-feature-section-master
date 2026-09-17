@@ -80,11 +80,19 @@ body{
         grid-template-columns: 240px 240px 240px;   
         gap: 50px; 
     }
-    .card-4{
+    .card-4, .card-2{
         grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-end: 2;
         position: relative;
-        
+        top: -100px;   
+    }
+    .card-4{
+        margin-top: -25px;
+    }
+
+    .content-body{
+        margin-bottom: 120px;
+        width: 450px;
     }
        
 }
