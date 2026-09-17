@@ -1,98 +1,103 @@
-.attribution { font-size: 0.6875rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 /* color naming*/
 
-
 /* card styling before griding- mobile-first approach*/
-body{
-    background-color: #fafafa;
-    font-family: "Poppins";
-    color: hsl(212, 6%, 44%);
+body {
+  background-color: #fafafa;
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
 }
-.content-head{
-    font-size: 1.5rem;
-    text-align: center;
-    
+.content-head {
+  font-size: 1.5rem;
+  text-align: center;
 }
-.bold-text{
-    font-weight: 900;
-    font-size: 1.6rem;
+.bold-text {
+  font-weight: 900;
+  font-size: 1.6rem;
 }
-.bold-text, h2{
-    color:hsl(234, 12%, 34%);
+.bold-text,
+h2 {
+  color: hsl(234, 12%, 34%);
 }
-.content-body{
-    width: 270px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    text-align: center;
+.content-body {
+  width: 270px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.card-1,.card-2,.card-3,.card-4{
-    width: 240px;
-    height: 200px;
-    padding-left: 25px;
-    padding-top: 1px;
-    background-color: hsl(0, 0%, 100%);
-    border-top: solid ;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    /* box-shadow: black; */
-    
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  width: 240px;
+  height: 200px;
+  padding-left: 25px;
+  padding-top: 1px;
+  background-color: hsl(0, 0%, 100%);
+  border-top: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /* box-shadow: black; */
 }
-.card-2{
-    border-color: hsl(0, 78%, 62%);
+.card-2 {
+  border-color: hsl(0, 78%, 62%);
 }
-.card-1{
-    border-color: hsl(180, 62%, 55%);
+.card-1 {
+  border-color: hsl(180, 62%, 55%);
 }
-.card-3{
-    border-color: hsl(34, 97%, 64%);
+.card-3 {
+  border-color: hsl(34, 97%, 64%);
 }
-.card-4{
-    border-color:hsl(212, 86%, 64%);
+.card-4 {
+  border-color: hsl(212, 86%, 64%);
 }
-.marg-up{
-    margin-top: -15px;
+.marg-up {
+  margin-top: -15px;
 }
-.svg{
-    position: relative;
-    left: 150px;
+.svg {
+  position: relative;
+  left: 150px;
 }
-.flex-first{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
+.flex-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.grid-container{
+.grid-container {
+  display: grid;
+  gap: 30px;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
     display: grid;
-    gap: 30px;
-}
+    grid-template-columns: 240px 240px 240px;
+    gap: 50px;
+  }
+  .card-4,
+  .card-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    position: relative;
+    top: -100px;
+  }
+  .card-4 {
+    margin-top: -25px;
+  }
 
-@media (min-width:600px) {
-    .grid-container{
-        display: grid;
-        grid-template-columns: 240px 240px 240px;   
-        gap: 50px; 
-    }
-    .card-4, .card-2{
-        grid-column-start: 2;
-        grid-column-end: 2;
-        position: relative;
-        top: -100px;   
-    }
-    .card-4{
-        margin-top: -25px;
-    }
-
-    .content-body{
-        margin-bottom: 120px;
-        width: 450px;
-    }
-       
+  .content-body {
+    margin-bottom: 120px;
+    width: 450px;
+  }
 }
