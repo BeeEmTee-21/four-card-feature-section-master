@@ -102,7 +102,7 @@ I used AI purely as a learning and troubleshooting aid rather than having it bui
 
 ## Author
 
-- Website - [Your Name](https://www.your-website.com)
+- Website - [Your Name](https://beeemtee-21.github.io/four-card-feature-section-master/)
 - Frontend Mentor - [@BeeEmTee-21](https://www.frontendmentor.io/profile/BeeEmTee-21)
 - GitHub - [BeeEmTee-21](https://github.com/BeeEmTee-21)
 
