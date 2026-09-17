@@ -35,8 +35,8 @@ Users should be able to:
 Add a screenshot of your completed project here.
 
 ```md
-![](./images/desktop.png)
-![](./images/mobile.png)
+![Desktop Preview](./images/desktop.png)
+![Mobile Preview](./images/mobile.png)
 ```
 
 ### Links
