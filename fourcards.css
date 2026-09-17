@@ -8,6 +8,7 @@
 body{
     background-color: #fafafa;
     font-family: "Poppins";
+    color: hsl(212, 6%, 44%);
 }
 .content-head{
     font-size: 1.5rem;
@@ -17,6 +18,9 @@ body{
 .bold-text{
     font-weight: 900;
     font-size: 1.6rem;
+}
+.bold-text, h2{
+    color:hsl(234, 12%, 34%);
 }
 .content-body{
     width: 270px;
@@ -57,7 +61,6 @@ body{
     position: relative;
     left: 150px;
 }
-
 .flex-first{
     display: flex;
     flex-direction: column;
