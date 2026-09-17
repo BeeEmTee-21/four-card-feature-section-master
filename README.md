@@ -35,7 +35,9 @@ Users should be able to:
 Add a screenshot of your completed project here.
 
 ```md
-![Four card feature section screenshot](./screenshot.jpg)
+![Four card feature section screenshot](./images/Screenshot%202026-09-17%20at%2009-33-52%20Frontend%20Mentor%20Four%20card%20feature%20section.png)
+
+![Four card feature section screenshot](./images/Screenshot%202026-09-17%20at%2009-35-27%20Frontend%20Mentor%20Four%20card%20feature%20section.png)
 ```
 
 ### Links
