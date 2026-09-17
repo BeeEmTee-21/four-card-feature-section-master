@@ -4,46 +4,37 @@ This is my solution to the [Four card feature section challenge on Frontend Ment
 
 ## Table of contents
 
-* [Overview](#overview)
-
-  * [The challenge](#the-challenge)
-  * [Screenshot](#screenshot)
-  * [Links](#links)
-* [My process](#my-process)
-
-  * [Built with](#built-with)
-  * [What I learned](#what-i-learned)
-  * [Continued development](#continued-development)
-  * [Useful resources](#useful-resources)
-  * [AI Collaboration](#ai-collaboration)
-* [Author](#author)
-* [Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### The challenge
 
-The challenge was to build a responsive four-card feature section based on the design provided by Frontend Mentor.
-
 Users should be able to:
 
-* View the optimal layout for the site depending on their device's screen size.
-* See the four feature cards displayed appropriately on both mobile and larger screen sizes.
+- View the optimal layout for the site depending on their device's screen size
+- See the four feature cards displayed appropriately on both mobile and larger screen sizes
 
 ### Screenshot
 
-Add a screenshot of your completed project here.
-
-```md
 ![Desktop Preview](./images/desktop.png)
 ![Mobile Preview](./images/mobile.png)
-```
 
 ### Links
 
-* Solution URL: (https://github.com/BeeEmTee-21/four-card-feature-section-master.git)
-
-* Live Site URL: **Add your live site URL here**
+- Solution URL: [GitHub Repository](https://github.com/BeeEmTee-21/four-card-feature-section-master.git)
+- Live Site URL: [View Live Site](https://beeemtee-21.github.io/four-card-feature-section-master/)
 
 ## My process
 
@@ -68,12 +59,12 @@ I spent approximately five hours working on this project. Although I still consi
 
 ### Built with
 
-* Semantic HTML5 markup
-* CSS custom properties
-* Flexbox
-* CSS Grid
-* Mobile-first workflow
-* Media queries
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Media queries
 
 ### What I learned
 
@@ -87,39 +78,34 @@ Another thing I learned during the project was how to properly work with Google 
 
 ### Continued development
 
-There are still several areas I want to improve as I continue building projects.
+There are still several areas I want to improve as I continue building projects:
 
-I want to become more comfortable with CSS Grid so that I can create complex layouts without relying heavily on trial and error. I also want to continue practicing Flexbox and responsive design.
-
-I would like to improve my understanding of positioning, spacing, and sizing so that I can create layouts that are more consistent across different screen sizes.
-
-I also want to improve my ability to structure my HTML and CSS cleanly and efficiently, while continuing to practice mobile-first development.
-
-As I complete more Frontend Mentor challenges, I hope to become faster at translating a design into a working webpage and reduce the amount of time I need to spend figuring out individual layout problems.
+- Become more comfortable with CSS Grid to create complex layouts without relying heavily on trial and error.
+- Continue practicing Flexbox and responsive design techniques.
+- Improve my understanding of positioning, spacing, and sizing for cleaner cross-screen consistency.
+- Structure HTML and CSS more efficiently while adhering strictly to a mobile-first approach.
 
 ### Useful resources
 
-* [Frontend Mentor](https://www.frontendmentor.io/) - This challenge provided the design and requirements for the project.
-* [MDN Web Docs](https://developer.mozilla.org/) - Useful for understanding HTML and CSS concepts and checking CSS properties.
-* [CSS-Tricks](https://css-tricks.com/) - Useful for learning and understanding CSS layout techniques, particularly Flexbox and Grid.
-* [Google Fonts](https://fonts.google.com/) - Used to obtain and embed the Poppins font used in the project.
+- [Frontend Mentor](https://www.frontendmentor.io/) - Provided the design and requirements for the project.
+- [MDN Web Docs](https://developer.mozilla.org/) - Useful for understanding HTML and CSS concepts and checking properties.
+- [CSS-Tricks](https://css-tricks.com/) - Essential guide for Flexbox and CSS Grid layout techniques.
+- [Google Fonts](https://fonts.google.com/) - Used to obtain and embed the Poppins font used in the project.
 
 ### AI Collaboration
 
 I used AI during this project mainly to help me understand concepts I was not completely comfortable with and to help me create and structure this README.
 
-AI was also useful when I needed clarification about CSS concepts and how certain properties worked.
+AI was also useful when I needed clarification about CSS concepts and how certain properties worked. For example, when troubleshooting the Poppins font integration.
 
-One example was working with the Poppins font. The font implementation provided in the original documentation was not working for me, so I went back to Google Fonts, obtained the correct embed code, and added it to my HTML.
-
-I used AI as a learning and troubleshooting aid rather than having it build the project for me. The HTML and CSS were written and developed by me while I used AI to help explain concepts and resolve areas where I needed additional understanding.
+I used AI purely as a learning and troubleshooting aid rather than having it build the project for me. The HTML and CSS were written and developed by me.
 
 ## Author
 
-* Website - **Add your website here**
-* Frontend Mentor - **Add your Frontend Mentor profile here**
-* GitHub - **Add your GitHub profile here**
+- Website - [Your Name](https://www.your-website.com)
+- Frontend Mentor - [@BeeEmTee-21](https://www.frontendmentor.io/profile/BeeEmTee-21)
+- GitHub - [BeeEmTee-21](https://github.com/BeeEmTee-21)
 
 ## Acknowledgments
 
-Thanks to Frontend Mentor for providing the challenge and design that I used to practice my HTML and CSS skills.
+Thanks to Frontend Mentor for providing the challenge and design used to practice my web development skills
