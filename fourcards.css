@@ -53,6 +53,11 @@ body{
 .marg-up{
     margin-top: -15px;
 }
+.svg{
+    position: relative;
+    left: 150px;
+}
+
 .flex-first{
     display: flex;
     flex-direction: column;
