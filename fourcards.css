@@ -1,7 +1,6 @@
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
-  margin-top: 0px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -12,7 +11,7 @@
 /* card styling before griding- mobile-first approach*/
 body {
   background-color: #fafafa;
-  font-family: "Poppins";
+  font-family: "Poppins" sans-serif;
   color: hsl(212, 6%, 44%);
 }
 .content-head {
@@ -28,9 +27,9 @@ h2 {
   color: hsl(234, 12%, 34%);
 }
 .content-body {
-  width: 320px;
-  margin-top: -20px;
-  margin-bottom: 20px;
+  width: 20rem;
+  margin-top: -1.25rem;
+  margin-bottom: 1.25rem;
   text-align: center;
 }
 .card-1,
@@ -38,9 +37,9 @@ h2 {
 .card-3,
 .card-4 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  width: 320px;
-  height: 200px;
-  padding: 25px;
+  width: 20rem;
+  height: 12.5rem;
+  padding: 1.563rem;
   padding-top: 0;
   background-color: hsl(0, 0%, 100%);
   border-top: solid;
@@ -63,7 +62,7 @@ h2 {
   border-color: hsl(212, 86%, 64%);
 }
 .marg-up {
-  margin-top: -15px;
+  margin-top: -0.938rem;
 }
 .svg {
   position: relative;
@@ -82,13 +81,12 @@ h2 {
   gap: 30px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 37.5rem) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, auto);
     gap: 40px 20px;
-    margin-bottom: 0px;
   }
   .card-1,
   .card-2,
