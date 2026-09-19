@@ -11,7 +11,7 @@
 /* card styling before griding- mobile-first approach*/
 body {
   background-color: #fafafa;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   color: hsl(212, 6%, 44%);
 }
 .content-head {
